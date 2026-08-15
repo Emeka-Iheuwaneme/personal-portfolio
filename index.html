@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#upcoming-projects">Upcoming Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Emeka Iheuwaneme</span></h1>
+                <p class="tagline">Developer | Writer | Cybersecurity Expert | Network Engineer</p>
+                <p class="hero-description">Building digital solutions with precision and passion.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Emeka-Iheuwaneme" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/emeka-iheuwa" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/emekaiheuwaneme" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="mailto:emekaiheuwa123@gmail.com" target="_blank"><i class="fab fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Who I Am</h3>
+                    <p>I'm a passionate professional with expertise spanning multiple fields. With a strong foundation in development, cybersecurity, and networking, I specialize in creating robust digital solutions.</p>
+                    <p>My journey includes working on diverse projects that challenge me to continuously learn and innovate. I believe in delivering quality work while maintaining clear communication with clients and collaborators.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">30+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-shield-alt"></i> Cybersecurity</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Penetration Testing</span>
+                        <span class="skill-tag">Network Security</span>
+                        <span class="skill-tag">Incident Response</span>
+                        <span class="skill-tag">Security Auditing</span>
+                        <span class="skill-tag">Cryptography</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-network-wired"></i> Networking</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Cisco</span>
+                        <span class="skill-tag">Firewalls</span>
+                        <span class="skill-tag">VPN</span>
+                        <span class="skill-tag">LAN/WAN</span>
+                        <span class="skill-tag">Cloud Infrastructure</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-pen-fancy"></i> Writing</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Technical Writing</span>
+                        <span class="skill-tag">Documentation</span>
+                        <span class="skill-tag">Content Creation</span>
+                        <span class="skill-tag">Blog Posts</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Senior Developer / Security Analyst</h3>
+                        <h4>Company Name</h4>
+                        <p>Leading development teams and implementing security protocols. Managing end-to-end project delivery while ensuring code quality and security best practices.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020 - 2022</div>
+                    <div class="timeline-content">
+                        <h3>Full Stack Developer</h3>
+                        <h4>Company Name</h4>
+                        <p>Developed responsive web applications and APIs. Collaborated with cross-functional teams to deliver scalable solutions.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2018 - 2020</div>
+                    <div class="timeline-content">
+                        <h3>Network Engineer</h3>
+                        <h4>Company Name</h4>
+                        <p>Managed network infrastructure and implemented security measures. Provided technical support and maintained system reliability.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Project Title 1</h3>
+                    <p>Description of your project. Explain the problem you solved and the technologies used.</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <h3>Project Title 2</h3>
+                    <p>Description of your project. Explain the problem you solved and the technologies used.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Security</span>
+                        <span>Automation</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-network"></i>
+                    </div>
+                    <h3>Project Title 3</h3>
+                    <p>Description of your project. Explain the problem you solved and the technologies used.</p>
+                    <div class="project-tags">
+                        <span>Networking</span>
+                        <span>Cloud</span>
+                        <span>DevOps</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <h3>Project Title 4</h3>
+                    <p>Description of your project. Explain the problem you solved and the technologies used.</p>
+                    <div class="project-tags">
+                        <span>Writing</span>
+                        <span>Documentation</span>
+                        <span>Content</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Feel free to reach out for collaborations, questions, or just to say hello.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>emekaiheuwa123@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+234 806 559 1081</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Lagos, Nigeria</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/emeka-iheuwa" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-envelope"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" required placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="5" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Emeka Iheuwaneme. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
